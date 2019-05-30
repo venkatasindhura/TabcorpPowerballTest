@@ -1,5 +1,5 @@
 <div fxLayout="column" fxLayout.xs="column" fxLayoutAlign="center center">
-  <div fxLayout="row wrap" fxLayoutGap="7px">
+  <div fxLayout="row wrap" fxLayoutGap="8px">
     <div fxFlex="0 0 84">
       <div fxLayout="column" fxLayout.xs="column">
         <div *ngIf="status">
@@ -44,7 +44,7 @@
                 <span></span>
               </div>
             </div>
-            <div fxFlex="0 0 18px" fxLayoutGap="10px">
+            <div fxFlex="0 0 18px">
               <div class="rowHighlight">
                 <span>PB</span>
               </div>
@@ -362,7 +362,7 @@
 
     <div fxFlex="0 0 13">
       <div fxLayout="column" fxLayout.xs="column">
-        <div fxLayout="row" fxLayoutGap="9px">
+        <div fxLayout="row wrap" fxLayoutGap="5px">
           <div fxFlex="0 0 30px" class="autoFill">
             <a (click)="getWinners()">
               <img src="assets/overfill.png" width="13px" height="19px" (click)="status = !status">
