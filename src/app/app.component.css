@@ -1,0 +1,122 @@
+
+ .autoFill{
+  background-color: #4e348e;
+    line-height: 3rem;
+    min-height: 3rem;
+    min-width: 3rem;
+    margin-right: 0.5rem;
+    border-radius:2.5rem; width:3rem;
+    height:3rem;
+    text-align: center;
+    margin-top: 4px;
+ }
+ 
+ mat-divider {
+  border-width: 1px;
+  border-color: lightgrey;
+}
+.toolBar{
+  background-color:#45424f;
+      text-align: center;
+      color:white;
+      width:340px;
+      padding-top : 8px;
+  }
+ 
+  li {
+    display: inline-block;
+    padding: 0;
+    background-color: #3653A4;
+    color: #FFF;
+    font-family: "Museo-sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    width: 3rem; 
+    height: 3rem;
+    display: inline-block;
+    line-height: 3rem;
+    min-height: 3rem;
+    min-width: 3rem;
+    margin-right: 15px;
+    border-radius: 2.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 4px;
+    position: relative;  
+   }
+
+   .rowHighlight{
+    background-color: #899BAA;
+    color: #FFF;
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
+    line-height: 3rem;
+    min-height: 3rem;
+    min-width: 3rem;
+    margin-right: 0.5rem;
+    border-radius: 2.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 4px;
+    position: relative;
+    text-align:"center";
+   }
+
+   .rowHide{
+    display: inline-block;
+    line-height: 3rem;
+    min-height: 3rem;
+    min-width: 3rem;
+    margin-right: 0.5rem;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-radius:2.5rem;
+    width:3rem;
+    height:3rem;
+    position : relative;
+    border-color:blue;
+    text-align: center;
+    margin-top: 4px;
+   }
+   .fontColumn{
+    font-family: "Museo-sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+     margin-top:4px;
+     text-align: center;
+     font-size: 1.5rem;
+     font-weight: 900;
+     color:#4e348e;
+     padding-left : 5px;
+     padding-right:8px;
+   }
+   .rowHighlight span{
+    position: absolute;
+    left: 0;
+    right: 0;
+   }
+  .borderRight{
+    border-right-style: ridge;
+    border-color: lightgrey;
+  }
+  .borderLft{
+    border-left-style: ridge;
+    border-color: lightgrey;
+  }
+  .focused {
+    background-color:lightgray;
+    background-position: center; 
+   }
+   .mat-icon{
+    background-color:lightgray;
+    line-height: 3rem;
+    min-height: 3rem;
+    min-width: 3rem;
+    margin-right: 0.5rem;
+    border-radius:2.5rem; width:3rem;
+    height:3rem;
+    text-align: center;
+    margin-top: 4px;
+   }
+  
